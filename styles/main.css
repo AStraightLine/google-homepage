@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+#top-nav-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.top-nav-left-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.top-nav-right-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-nav-item {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font: Roboto,RobotoDraft,Arial,sans-serif;
+    font-size: 14px;
+    padding-top: 2.4%;
+}
+.top-nav-item-left {
+
+}
+.top-nav-item-right {
+
+}
+#nav-left-item-one {
+    padding-left: 2.75%;
+}
+#nav-left-item-two {
+    padding-left: 2%;
+}
+#apps-expandable-menu-container {
+    width: 5%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#nine-dots-icon {
+    width: 22.5px;
+    height: 22.5px;
+    opacity: 0.75;
+}
+#account-expandable-menu-container {
+    width: 5%;
+    height: 100%;
+}
+#account-expandable-menu {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#logo-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#google-logo {
+    width: 250px;
+    height: auto;
+}
