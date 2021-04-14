@@ -8,3 +8,5 @@ Note 2: When using flex, perhaps set the body to display: flex; at the start.
 
 Note 3: After completing the project using the "live server" VSC extension, noticed the results between the live server and basic loading of the index.html file produce
 wildly different results. Work out why on next project, don't use the extension until you know why and can assure like results across methods. 
+
+Note 4: Worked it out, pretty sure it was a problem with image referencing. Works now, so look at current method as an example.
