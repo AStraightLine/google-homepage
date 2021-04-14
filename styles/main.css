@@ -1,11 +1,13 @@
-body {
-    width: 100%;
-    height: 100%;
-}
 #top-nav-bar {
     width: 100%;
-    height: 10%;
     display: flex;
+}
+a {
+    color: #70757a;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font: arial,sans-serif;
+    font-size: 14px;
 }
 .top-nav-left-container {
     width: 50%;
@@ -23,15 +25,9 @@ body {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     font-family: arial,sans-serif;
-    font: Roboto,RobotoDraft,Arial,sans-serif;
+    font: arial,sans-serif;
     font-size: 14px;
     padding-top: 2.4%;
-}
-.top-nav-item-left {
-
-}
-.top-nav-item-right {
-
 }
 #nav-left-item-one {
     padding-left: 2.75%;
@@ -39,32 +35,161 @@ body {
 #nav-left-item-two {
     padding-left: 2%;
 }
+#nav-right-item-one {
+    padding-right: 1.6%;
+    font-size: 13px;
+}
+#nav-right-item-two {
+    padding-right: 1.6%;
+    font-size: 13px;
+}
 #apps-expandable-menu-container {
     width: 5%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    padding-top: 2%;
+    padding-right: 0.75%;
 }
 #nine-dots-icon {
-    width: 22.5px;
-    height: 22.5px;
-    opacity: 0.75;
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
 }
 #account-expandable-menu-container {
     width: 5%;
     height: 100%;
+    padding-top: 1.3%;
+    padding-right: 0.25%;
 }
 #account-expandable-menu {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
 }
 #logo-wrap {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 10.9%;
 }
 #google-logo {
-    width: 250px;
+    width: 272px;
     height: auto;
+}
+#main-search-container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding-top: 1.35%;
+}
+#main-search-box {
+    width: 30.3%;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+}
+#search-bar-splitter-left {
+    width: 50%;
+}
+#search-bar-splitter-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+#spy-glass-icon {
+    width: 6%;
+    justify-self: start;
+    padding-top: 4.6%;
+    padding-left: 5.2%;
+    opacity: 0.75;
+}
+#google-microphone-icon {
+    width: 4.7%;
+    height: 45%;
+    padding-top: 4.3%;
+    padding-right: 7.3%;
+}
+#sub-search-line-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5%;
+}
+.sub-search-function-buttons {
+    color: #3c4043;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font: arial,sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 0.575%;
+    padding-bottom: 0.575%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    margin: 0 0.3%;
+}
+#pre-footer {
+    width: 98.4%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54);
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    padding-top: 0.85%;
+    padding-bottom: 0.1%;
+    padding-left: 1.55%;
+    margin-top: 18.5%;
+}
+#footer-container {
+    width: 99.9%;
+    height: 47px;
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    display: flex;
+}
+#footer-left-container {
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.8%;
+    padding-top: 0.8%;
+}
+#footer-center-container {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8%;
+}
+#footer-right-container {
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.8%;
+    padding-right: 1.8%;
+}
+#carbon-neutral-leaf {
+    width: 13px;
+    height: 13px;
+}
+
+#footer-left-item-one {
+    padding-right: 4.8%;
+}
+#footer-left-item-two {
+    padding-right: 4.8%;
+}
+#footer-center-item-two {
+    padding-left: 1%;
+}
+#footer-right-item-one {
+    padding-right: 4.8%;
+}
+#footer-right-item-two {
+    padding-right: 4.8%;
 }
